@@ -1,28 +1,23 @@
+/* styles.css */
 body {
     background-color: black;
     color: white;
     font-family: Arial, sans-serif;
+    text-align: center;
+    height: 100vh; /* Full height of the viewport */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    text-align: center;
     margin: 0;
 }
 
-h2 {
-    font-size: 2em;
-    font-weight: bold;
-}
-
-p {
-    font-size: 1.2em;
+div {
+    max-width: 600px; /* Optional: Limit text width */
 }
 
 a {
-    color: #ffcc00; /* Yellow color for contrast */
+    color: #00ffcc; /* Light blue-green for visibility */
     text-decoration: none;
-    font-weight: bold;
 }
 
 a:hover {
